@@ -1,11 +1,11 @@
-//Actializacion 01/06/2020 
+//Actializacion 10/06/2020 
 //cambio de motor, nema 24 por nema 17 
 //con el sistema de reduccion se cambia la cantidad de pasos para el giro completo del caracol a 3250
 //cambia la configuracion de pasos a 200 pasos 1 vuelta
 //programa con control de relacion I/E, frecuencia de respiracion seteables por teclado en tiempo real
 //implementacion de la pantalla LCD
 //implementacion de interrupciones para boton de parada de emergencia
-
+// para prueba de github. 
 //librerias
 #include <Wire.h>  // Lo trae Arduino IDE
 #include <LCD.h>
