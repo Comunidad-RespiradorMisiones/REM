@@ -40,7 +40,7 @@ int Str_A_Vector(String Cadena) {
   String Cad = "";
   for (int i = 0; (Cadena.length()-1); i++) {
     Uno = Cadena.charAt(i+1);
-    if (Uno == ";") {
+    if (Uno == ';') {  //comillas simples para comparar en formato char vs char
       Vector[Elem]= Cad.toInt() + 1;
       Elem += 1;
       Cad = "";
